@@ -1,0 +1,101 @@
+/* line 12, ../Sass/index.scss */
+body h1 {
+  font-size: 400%;
+}
+/* line 16, ../Sass/index.scss */
+body h2 {
+  font-size: 300%;
+}
+/* line 20, ../Sass/index.scss */
+body h3 {
+  font-size: 250%;
+}
+/* line 24, ../Sass/index.scss */
+body ul {
+  padding: 0;
+}
+
+/* line 29, ../Sass/index.scss */
+.header {
+  background-color: #201a1e;
+  color: white;
+  font-family: "Passion One", cursive;
+  padding-bottom: 20px;
+}
+/* line 35, ../Sass/index.scss */
+.header .contact {
+  position: relative;
+  border-radius: 100px;
+  background-color: white;
+  margin-top: 20px;
+  height: 57px;
+  width: 57px;
+}
+/* line 43, ../Sass/index.scss */
+.header .contact .star-trek-logo {
+  max-width: 35px;
+  position: absolute;
+  top: 0px;
+  left: 12px;
+}
+/* line 53, ../Sass/index.scss */
+.header .name h1 {
+  margin-right: -100px;
+}
+/* line 60, ../Sass/index.scss */
+.header .title h2 {
+  margin-top: -10px;
+}
+
+/* line 66, ../Sass/index.scss */
+.intro {
+  padding: 20px 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 200%;
+  background: #b06352;
+}
+/* line 72, ../Sass/index.scss */
+.intro .intro-content {
+  color: white;
+}
+
+/* line 77, ../Sass/index.scss */
+.portfolio {
+  min-height: 100px;
+  margin-top: 20px;
+}
+/* line 83, ../Sass/index.scss */
+.portfolio .icon-links div a .octocat {
+  max-height: 75px;
+}
+/* line 86, ../Sass/index.scss */
+.portfolio .icon-links div a .stack-overflow {
+  max-height: 75px;
+}
+
+/* line 94, ../Sass/index.scss */
+.education {
+  background: #201a1e;
+  padding: 0px 20px;
+}
+/* line 98, ../Sass/index.scss */
+.education li {
+  list-style: none;
+  color: white;
+}
+
+/* line 104, ../Sass/index.scss */
+body .experience {
+  background-color: #c5c2c1;
+  padding: 30px 35px;
+}
+/* line 109, ../Sass/index.scss */
+body .experience .job-history li {
+  color: #766d73;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+/* line 114, ../Sass/index.scss */
+body .experience .job-history li.title {
+  color: #201a1e;
+}
